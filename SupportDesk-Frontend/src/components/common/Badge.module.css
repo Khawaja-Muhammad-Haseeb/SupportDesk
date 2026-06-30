@@ -1,0 +1,21 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.urgent {
+  background: #FEE2E2;
+  color: #DC2626;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.default {
+  background: var(--card-bg);
+  color: var(--text-secondary);
+}
