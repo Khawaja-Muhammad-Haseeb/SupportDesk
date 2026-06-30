@@ -826,6 +826,15 @@ LIMIT limit
 | CI/CD ready | Images can be pushed to registry, deployed automatically |
 | Environment isolation | Multiple projects on same machine without conflicts |
 
+### Deployment
+
+**Live Demo:** http://35.172.220.229:5173
+
+The application is deployed on AWS EC2 with Docker Compose:
+- Frontend: React (Vite) on port 5173
+- Backend: FastAPI on port 8000
+- Database: PostgreSQL
+
 ### Future Improvements
 
 1. **Production Compose File** – Separate `docker-compose.prod.yml` with optimized images (multi-stage builds, nginx reverse proxy)
