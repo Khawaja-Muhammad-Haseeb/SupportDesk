@@ -1,0 +1,25 @@
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.searchWrap {
+  flex: 1;
+  min-width: 220px;
+  max-width: 420px;
+}
+
+.filterWrap {
+  margin-bottom: 16px;
+}
+
+.results {
+  margin-bottom: 10px;
+}
+
+.resultCount {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
