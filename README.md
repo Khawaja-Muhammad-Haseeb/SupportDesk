@@ -1352,7 +1352,7 @@ These are intentional MVP constraints to keep the scope manageable:
 | **Documentation & Cleanup** | 1.0 | README, code cleanup, deployment verification, final review |
 | | | |
 | **Total** | **7.0 hours** | Completed within the recommended 8-hour time limit |
-```
+---
 ## Conclusion
 
 **SupportDesk** is a production-ready ticket management system demonstrating modern full-stack development practices:
