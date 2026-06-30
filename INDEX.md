@@ -4,27 +4,23 @@ Welcome! This is a complete, production-ready ticket management system built wit
 
 ---
 
-## 📖 Where to Start
+##  Where to Start
 
-### 1. **Quick Overview** – 5 minutes
-- Start here: [`SUBMISSION.md`](SUBMISSION.md)
-- Learn what was built and how to run it
-
-### 2. **Full Documentation** – 30 minutes
+### 1. **Full Documentation** – 
 - Read: [`README.md`](README.md)
 - Covers all features, architecture, setup, API, testing, and more
 
-### 3. **Verify Everything Works** – 2 minutes
+### 2. **Verify Everything Works** – 
 - Check: [`VERIFICATION.md`](VERIFICATION.md)
-- 100+ verification items, all passing ✅
+- 100+ verification items, all passing
 
-### 4. **Project Deliverables** – 5 minutes
+### 3. **Project Deliverables** –
 - Review: [`DELIVERABLES.md`](DELIVERABLES.md)
 - What was built in each module
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 ### Docker (Recommended)
 ```bash
@@ -51,7 +47,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 SupportDesk/
@@ -93,7 +89,7 @@ SupportDesk/
 
 ---
 
-## ✨ Features
+## Features
 
 ### Dashboard
 - Real-time statistics (Total, Open, In Progress, Resolved, Urgent)
@@ -139,7 +135,7 @@ SupportDesk/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Backend Tests (36 total, 100% passing)
 ```bash
@@ -164,7 +160,7 @@ Categories:
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Route | Description |
 |--------|-------|-------------|
@@ -186,7 +182,7 @@ Query parameters for `GET /api/tickets`:
 
 ---
 
-## 📚 Documentation Highlights
+## Documentation Highlights
 
 ### README.md (22 sections)
 1. Project overview
@@ -214,7 +210,7 @@ Query parameters for `GET /api/tickets`:
 
 ---
 
-## 🐳 Docker Commands
+##  Docker Commands
 
 ```bash
 # Build and start
@@ -238,7 +234,7 @@ docker compose exec postgres psql -U supportdesk -d supportdesk
 
 ---
 
-## 🔑 Key Design Decisions
+## Key Design Decisions
 
 1. **Server-side Pagination** – Scales to millions of tickets
 2. **Backend Urgent Detection** – Prevents client spoofing
@@ -250,7 +246,7 @@ docker compose exec postgres psql -U supportdesk -d supportdesk
 
 ---
 
-## 📝 Known Limitations
+##  Known Limitations
 
 Currently not implemented (future enhancements):
 - No authentication or authorization
@@ -265,28 +261,28 @@ See `README.md` for details and workarounds.
 
 ---
 
-## ✅ Verification Checklist
+##  Verification Checklist
 
 All items verified:
-- ✅ 36/36 tests passing
-- ✅ Frontend builds successfully
-- ✅ Backend smoke tests pass
-- ✅ Docker deployment works
-- ✅ All API endpoints functional
-- ✅ Search/filter/sort working
-- ✅ Pagination working
-- ✅ Dashboard stats correct
-- ✅ Urgent detection working
-- ✅ Form validation working
-- ✅ Swagger docs accessible
-- ✅ Code quality clean
-- ✅ Documentation complete
+-  36/36 tests passing
+-  Frontend builds successfully
+-  Backend smoke tests pass
+-  Docker deployment works
+-  All API endpoints functional
+-  Search/filter/sort working
+-  Pagination working
+-  Dashboard stats correct
+-  Urgent detection working
+-  Form validation working
+-  Swagger docs accessible
+-  Code quality clean
+-  Documentation complete
 
 See `VERIFICATION.md` for full checklist.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 ### To Understand the Project
 1. Read `SUBMISSION.md` (5 min overview)
@@ -309,7 +305,7 @@ See `VERIFICATION.md` for full checklist.
 
 ---
 
-## 📞 Questions?
+##  Questions?
 
 All information is in the documentation:
 - **How do I run this?** → `SUBMISSION.md` + `README.md` section 15
@@ -321,6 +317,6 @@ All information is in the documentation:
 
 ---
 
-**Status: PRODUCTION READY** ✅
+**Status: PRODUCTION READY** 
 
 The project is complete, tested, documented, and ready for deployment.
